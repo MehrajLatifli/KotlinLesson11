@@ -1,15 +1,26 @@
 open class Animal (var name:String?=null, var weight:Double?=null, var length:Double?=null):IBirthday {
 
 
-
     fun Info():String{
 
         return "Name: ${name}, Weight: ${weight}, Length: ${length} "
     }
 
-    override fun calculateBirthday(currentyear: Int, birthYear: Int): Int {
+    override fun calculateAge(currentyear: Int?, birthYear: Int?): Int {
 
-        return currentyear - birthYear
+        currentyear?.let{
+
+            birthYear?.let{
+
+                return currentyear - birthYear
+            }
+        }
+
+        return 0
+
+
     }
+
+
 
 }

@@ -1,5 +1,5 @@
 interface IBirthday {
 
-    fun calculateBirthday(currentyear: Int, birthYear: Int): Int
+    fun calculateAge(currentyear: Int?=null, birthYear: Int?=null): Int
 
 }

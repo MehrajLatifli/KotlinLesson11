@@ -7,7 +7,9 @@ F
 src/main/kotlin/Dog.kt,b\a\ba893de11e01f3bcbd4c34ebac965197f96c438d
 F
 src/main/kotlin/Cat.kt,4\4\44bc01aa272fb98b56d975142cb6413664c6f2f7
-G
-src/main/kotlin/aaaa.kt,2\5\25ee30a99c98a92b1d496a6e530580a0adaf84c1
 L
 src/main/kotlin/IBirthday.kt,6\7\67455c0089209b776d2bf24db2b9bd8cd63562c0
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
