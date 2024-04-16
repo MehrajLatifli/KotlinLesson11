@@ -1,10 +1,11 @@
-import Models.Cat
-import Models.Dog
+import Models.Classes.Cat
+import Models.Classes.Dog
+import Models.Enums.FurType
 
 fun main(args: Array<String>) {
 
-    var dog_1 = Dog(false, "Dog_1", 50.00, 150.0, null)
-    var cat_1 = Cat(true, "Cat_1", 25.00, 100.0, null)
+    var dog_1 = Dog(false, "Dog_1", 50.00, 150.0, FurType.Hairy,null)
+    var cat_1 = Cat(true, "Cat_1", 25.00, 100.0, FurType.Hairy,null)
 
     println("\n")
 
@@ -22,8 +23,8 @@ fun main(args: Array<String>) {
 
     println("\n----------------------------------------------------------\n")
 
-    var dog_2 = Dog(null, "Dog_2", 75.00, 200.0, null)
-    var cat_2 = Cat(null, "Cat_2", 50.00, 100.0, null)
+    var dog_2 = Dog(null, "Dog_2", 75.00, 200.0, FurType.Hairless,null)
+    var cat_2 = Cat(null, "Cat_2", 50.00, 100.0, null,null)
 
     println(dog_2.Info())
     println(dog_2.isWild())
@@ -39,8 +40,8 @@ fun main(args: Array<String>) {
 
     println("\n----------------------------------------------------------\n")
 
-    var dog_3 = Dog(true, "Dog_3", 75.00, 200.0, arrayListOf(dog_1,dog_2))
-    var cat_3 = Cat(null, "Cat_3", 50.00, 100.0, arrayListOf(cat_1,cat_2))
+    var dog_3 = Dog(true, "Dog_3", 75.00, 200.0, FurType.Hairy, arrayListOf(dog_1,dog_2))
+    var cat_3 = Cat(null, "Cat_3", 50.00, 100.0, FurType.Hairy, arrayListOf(cat_1,cat_2))
 
     println(dog_3.Info())
     println(dog_3.isWild())

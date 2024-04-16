@@ -1,6 +1,9 @@
-package Models
+package Models.Classes
 
-open class Animal (var name:String?=null, var weight:Double?=null, var length:Double?=null, var parentArrayList: ArrayList<Animal>?=null):
+import Models.Enums.FurType
+import Models.Interfaces.IBirthday
+
+open class Animal (var name:String?=null, var weight:Double?=null, var length:Double?=null, var furType: FurType? = null, var parentArrayList: ArrayList<Animal>?=null):
     IBirthday {
 
 
@@ -8,7 +11,9 @@ open class Animal (var name:String?=null, var weight:Double?=null, var length:Do
 
         val parentArrayListInfo = parentArrayList?.joinToString(", ") { it.name.toString() } ?: "There is no information about the animal's parents."
 
-        return "Name: ${name}, Weight: ${weight}, Length: ${length} , The animal's parents: ${parentArrayListInfo}"
+
+
+        return "Name: ${name}; Weight: ${weight}; Length: ${length}; Fur Type: ${furType?:"There is no information about the type of fur."}; The animal's parents: ${parentArrayListInfo}"
     }
 
     override fun calculateAge(currentyear: Int?, birthYear: Int?):String {
