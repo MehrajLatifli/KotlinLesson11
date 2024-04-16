@@ -8,17 +8,17 @@ open class Animal (var name:String?=null, var weight:Double?=null, var length:Do
         return "Name: ${name}, Weight: ${weight}, Length: ${length} , The animal's parents: ${parentArrayListInfo}"
     }
 
-    override fun calculateAge(currentyear: Int?, birthYear: Int?): Int {
+    override fun calculateAge(currentyear: Int?, birthYear: Int?):String {
 
         currentyear?.let{
 
             birthYear?.let{
 
-                return currentyear - birthYear
+                return (currentyear - birthYear).toString()
             }
         }
 
-        return 0
+        return "Age cannot be calculated. Because there is a lack of information."
 
 
     }
