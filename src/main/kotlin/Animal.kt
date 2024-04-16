@@ -3,8 +3,9 @@ open class Animal (var name:String?=null, var weight:Double?=null, var length:Do
 
     fun Info():String{
 
-        val parentArrayListInfo = parentArrayList?.joinToString(", ") { it.name.toString() } ?: "No parent animals"
-        return "Name: ${name}, Weight: ${weight}, Length: ${length} , Parent Animals: ${parentArrayListInfo}"
+        val parentArrayListInfo = parentArrayList?.joinToString(", ") { it.name.toString() } ?: "There is no information about the animal's parents."
+
+        return "Name: ${name}, Weight: ${weight}, Length: ${length} , The animal's parents: ${parentArrayListInfo}"
     }
 
     override fun calculateAge(currentyear: Int?, birthYear: Int?): Int {
