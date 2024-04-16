@@ -2,8 +2,7 @@ package Models.Classes
 
 import Models.Enums.FurType
 
-data class Cat(var isUngrateful:Boolean?=null, var name_1:String? = null, var weight_2:Double? = null, var length_2:Double? = null, var furType_2: FurType? = null, var parentArrayList_2: ArrayList<Animal>? = null):
-    Animal(name_1,weight_2,length_2,furType_2,parentArrayList_2)  {
+data class Cat(var isUngrateful:Boolean?=null, var name_2:String? = null, var weight_2:Double? = null, var length_2:Double? = null, var furType_2: FurType? = null, var parentArrayList_2: ArrayList<Animal>? = null):Animal(name_2,weight_2,length_2,furType_2,parentArrayList_2)  {
 
     fun Sweety(sweety:Boolean?=null):String{
 

@@ -2,8 +2,7 @@ package Models.Classes
 
 import Models.Enums.FurType
 
-data class Dog(var isWild:Boolean?=null, var name_1:String? = null, var weight_2:Double? = null, var length_2:Double? = null, var furType_2: FurType? = null, var parentArrayList_2: ArrayList<Animal>? = null):
-    Animal(name_1,weight_2,length_2,furType_2,parentArrayList_2) {
+data class Dog(var isWild:Boolean?=null, var name_1:String? = null, var weight_1:Double? = null, var length_1:Double? = null, var furType_1: FurType? = null, var parentArrayList_1: ArrayList<Animal>? = null):Animal(name_1,weight_1,length_1,furType_1,parentArrayList_1) {
 
      fun Friendly(friendly:Boolean?=null):String{
 
