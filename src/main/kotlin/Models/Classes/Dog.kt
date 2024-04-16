@@ -17,6 +17,7 @@ data class Dog(var isWild:Boolean?=null, var name_1:String? = null, var weight_1
                  return "The dog is not friendly."
              }
          }
+
         return  "The value named friendly must not be empty."
      }
 
@@ -34,6 +35,7 @@ data class Dog(var isWild:Boolean?=null, var name_1:String? = null, var weight_1
                  return "The dog is not wild."
              }
          }
+
          return  "The value named wild must not be empty."
      }
 }

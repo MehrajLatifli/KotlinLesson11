@@ -17,6 +17,7 @@ data class Cat(var isUngrateful:Boolean?=null, var name_2:String? = null, var we
                 return "The cat is not sweety."
             }
         }
+
         return  "The value named sweety must not be empty."
     }
 
@@ -34,6 +35,7 @@ data class Cat(var isUngrateful:Boolean?=null, var name_2:String? = null, var we
                 return "The dog is not ungrateful."
             }
         }
+
         return  "The value named ungrateful must not be empty."
     }
 }

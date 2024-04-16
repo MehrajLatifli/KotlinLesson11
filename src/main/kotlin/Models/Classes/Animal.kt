@@ -25,7 +25,6 @@ open class Animal (var name:String?=null, var weight:Double?=null, var length:Do
         }
 
         return "Age cannot be calculated. Because there is a lack of information."
-
     }
 
 
