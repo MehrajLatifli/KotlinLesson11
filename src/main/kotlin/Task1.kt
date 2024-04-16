@@ -1,3 +1,6 @@
+import Models.Cat
+import Models.Dog
+
 fun main(args: Array<String>) {
 
     var dog_1 = Dog(false, "Dog_1", 50.00, 150.0, null)
@@ -8,7 +11,7 @@ fun main(args: Array<String>) {
     println(dog_1.Info())
     println(dog_1.isWild())
     println(dog_1.Friendly(true))
-    println("The age of the dog: ${dog_1.calculateAge(2024, 2008)}")
+    println("The age of the dog: ${dog_1.calculateAge(2024, 2000)}")
 
     println("\n")
 

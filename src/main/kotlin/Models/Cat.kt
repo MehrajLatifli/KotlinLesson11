@@ -1,4 +1,7 @@
-class Cat(var isUngrateful:Boolean?=null, var name_1:String, var weight_2:Double, var length_2:Double, var parentArrayList_2: ArrayList<Animal>?):Animal(name_1,weight_2,length_2,parentArrayList_2)  {
+package Models
+
+class Cat(var isUngrateful:Boolean?=null, var name_1:String, var weight_2:Double, var length_2:Double, var parentArrayList_2: ArrayList<Animal>?):
+    Animal(name_1,weight_2,length_2,parentArrayList_2)  {
 
     fun Sweety(sweety:Boolean?=null):String{
 

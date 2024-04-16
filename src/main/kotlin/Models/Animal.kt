@@ -1,4 +1,7 @@
-open class Animal (var name:String?=null, var weight:Double?=null, var length:Double?=null, var parentArrayList: ArrayList<Animal>?=null):IBirthday {
+package Models
+
+open class Animal (var name:String?=null, var weight:Double?=null, var length:Double?=null, var parentArrayList: ArrayList<Animal>?=null):
+    IBirthday {
 
 
     fun Info():String{
