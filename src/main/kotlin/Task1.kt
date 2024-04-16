@@ -11,7 +11,7 @@ fun main(args: Array<String>) {
     println(dog_1.Info())
     println(dog_1.isWild())
     println(dog_1.Friendly(true))
-    println("The age of the dog: ${dog_1.calculateAge(2024, 2000)}")
+    println("The age of the dog: ${dog_1.calculateAge(2024, 2001)}")
 
     println("\n")
 
@@ -52,5 +52,5 @@ fun main(args: Array<String>) {
     println(cat_3.Info())
     println(cat_3.isUngrateful())
     println(cat_3.Sweety())
-    println("The age of the cat: ${cat_3.calculateAge(2024, 2015)}")
+    println("The age of the cat: ${cat_3.calculateAge(2024, 2016)}")
 }
