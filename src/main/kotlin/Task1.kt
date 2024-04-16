@@ -40,18 +40,18 @@ fun main(args: Array<String>) {
 
     println("\n----------------------------------------------------------\n")
 
-    var dog_3 = Dog(true, "Dog_3", 75.00, 200.0, FurType.Hairy, arrayListOf(dog_1,dog_2))
-    var cat_3 = Cat(null, "Cat_3", 50.00, 100.0, FurType.Hairy, arrayListOf(cat_1,cat_2))
+    var dog_3 = Dog(false, "Dog_3", 75.00, 200.0, FurType.Hairy, arrayListOf(dog_1,dog_2))
+    var cat_3 = Cat(false, "Cat_3", 50.00, 100.0, FurType.Hairy, arrayListOf(cat_1,cat_2))
 
     println(dog_3.Info())
     println(dog_3.isWild())
-    println(dog_3.Friendly())
+    println(dog_3.Friendly(true))
     println("The age of the dog: ${dog_3.calculateAge(2024, 2010)}")
 
     println("\n")
 
     println(cat_3.Info())
     println(cat_3.isUngrateful())
-    println(cat_3.Sweety())
+    println(cat_3.Sweety(false))
     println("The age of the cat: ${cat_3.calculateAge(2024, 2016)}")
 }

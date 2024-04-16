@@ -20,6 +20,7 @@ data class Dog(var isWild:Boolean?=null, var name_1:String? = null, var weight_1
         return  "The value named friendly must not be empty."
      }
 
+
      fun isWild():String{
 
          isWild?.let{

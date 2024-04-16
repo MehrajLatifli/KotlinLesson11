@@ -20,6 +20,7 @@ data class Cat(var isUngrateful:Boolean?=null, var name_2:String? = null, var we
         return  "The value named sweety must not be empty."
     }
 
+
     fun isUngrateful():String{
 
         isUngrateful?.let{

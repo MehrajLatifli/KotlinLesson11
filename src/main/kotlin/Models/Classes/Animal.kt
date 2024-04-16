@@ -13,6 +13,7 @@ open class Animal (var name:String?=null, var weight:Double?=null, var length:Do
         return "Name: ${name}; Weight: ${weight}; Length: ${length}; Fur Type: ${furType?:"There is no information about the type of fur."}; The animal's parents: ${parentArrayListInfo}"
     }
 
+
     override fun calculateAge(currentyear: Int?, birthYear: Int?):String {
 
         currentyear?.let{
