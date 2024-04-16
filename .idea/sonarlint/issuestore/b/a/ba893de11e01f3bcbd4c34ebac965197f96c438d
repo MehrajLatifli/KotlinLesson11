@@ -1,0 +1,6 @@
+
+Åkotlin:S6619"<Remove this useless null-safe access ?., it always succeeds.(ö±ÎÅ8ıµµ∑Ó1J$41cb5128-419b-41ab-ac7b-2abda827de18
+ëkotlin:S117"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(’˘“88ˆµµ∑Ó1J$f0e54914-eb71-4ac9-9531-941715b1653b
+ëkotlin:S117"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(’˘“88ˆµµ∑Ó1J$be686ad1-9e65-460b-a03e-228b842b739f
+ëkotlin:S117"NRename this parameter to match the regular expression ^`?[_a-z][a-zA-Z0-9]*`?$(’˘“88ˆµµ∑Ó1J$73167f24-92bd-4e3b-a6e3-bb8b82f3cdc4
+ãkotlin:S6510"AMove "return" statements from all branches before "if" statement.(Íô”Û¸ˇˇˇˇ8—ç∂∑Ó1J$a65fcfa1-9691-4f6d-8b0b-eec40fdf5072
