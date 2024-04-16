@@ -11,11 +11,11 @@ data class Cat(var isUngrateful:Boolean?=null, var name_1:String? = null, var we
 
             if(sweety==true)
             {
-                return "The cat is sweety"
+                return "The cat is sweety."
             }
             else{
 
-                return "The cat is not sweety"
+                return "The cat is not sweety."
             }
         }
         return  "The value named sweety must not be empty."
@@ -27,13 +27,13 @@ data class Cat(var isUngrateful:Boolean?=null, var name_1:String? = null, var we
 
             if(isUngrateful==true)
             {
-                return "The dog is isUngrateful"
+                return "The dog is ungrateful."
             }
             else{
 
-                return "The dog is not isUngrateful"
+                return "The dog is not ungrateful."
             }
         }
-        return  "The value named isUngrateful must not be empty."
+        return  "The value named ungrateful must not be empty."
     }
 }

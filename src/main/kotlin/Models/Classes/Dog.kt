@@ -11,11 +11,11 @@ data class Dog(var isWild:Boolean?=null, var name_1:String? = null, var weight_2
 
              if(friendly==true)
              {
-                 return "The dog is friendly"
+                 return "The dog is friendly."
              }
              else{
 
-                 return "The dog is not friendly"
+                 return "The dog is not friendly."
              }
          }
         return  "The value named friendly must not be empty."
@@ -27,13 +27,13 @@ data class Dog(var isWild:Boolean?=null, var name_1:String? = null, var weight_2
 
              if(isWild==true)
              {
-                 return "The dog is isWild"
+                 return "The dog is wild."
              }
              else{
 
-                 return "The dog is not isWild"
+                 return "The dog is not wild."
              }
          }
-         return  "The value named isWild must not be empty."
+         return  "The value named wild must not be empty."
      }
 }

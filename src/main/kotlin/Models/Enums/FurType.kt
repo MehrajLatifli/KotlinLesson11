@@ -4,5 +4,4 @@ enum class FurType {
 
     Hairy,
     Hairless
-
 }
